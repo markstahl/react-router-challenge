@@ -1,0 +1,217 @@
+@import url(https://fonts.googleapis.com/css?family=Mr+Dafoe);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:900);
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+@import url(https://fonts.googleapis.com/css?family=Candal);
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(https://fonts.googleapis.com/css?family=Monoton);
+
+
+.jane-jupiter {
+  position: relative;
+  background-image: -webkit-linear-gradient(#378DBC 0%, #B6E8F1 46%, #ffffff 50%, #32120E 54%, #FFC488 58%, #582C11 90%, #EC9B4E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 4px #f5f5f5;
+  font-size: 150px;
+  font-family: 'Titillium Web', sans-serif;
+  font-style: italic;
+  margin-left: 140px;
+  line-height: 1;
+  margin-bottom: 60px;
+}
+
+.jane-jupiter:before {
+  content: 'JANE JUPITER';
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  background-image: -webkit-linear-gradient(-40deg, transparent 0%, transparent 40%, #fff 50%, transparent 60%, transparent 100%);
+  background-position:-680px 0;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 0;
+  padding-right: 300px;
+  -webkit-animation-duration: 6s;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.developer {
+  position: absolute;
+  margin: 0px;
+  font-family: 'Mr Dafoe', cursive;
+  font-size: 110px;
+  color: #F975F7 ;
+  transform:rotate(-15deg);
+  -ms-transform:rotate(-15deg); /* IE 9 */
+  -webkit-transform:rotate(-15deg); /* Safari and Chrome */
+  margin-left: 490px;
+  margin-top: -150px;
+  -webkit-text-stroke: 1px #f008b7;
+  -webkit-filter: drop-shadow(2px 2px 20px #f008b7);
+  z-index: 20;
+}
+
+.windows .developer {
+  -webkit-text-stroke: 4px #f008b7;
+}
+
+body {
+  background-image: url(https://wallpapercave.com/wp/lV188RB.jpg);
+  background-attachment: fixed;
+  font-family: helvetica, Arial;
+  margin-left: 15px;
+}
+
+h1.page-title {
+  font-size: 2.5rem;
+  font-family: Helvetica;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0 0 1rem 0;
+}
+
+ .footer {
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0 2rem 0;
+  text-transform: uppercase;
+}
+
+.button {
+  margin-bottom: 35px;
+  margin-left: 565px;
+}
+
+div.skills {
+  margin-left: 2em;
+  margin-right: 2em;
+  padding-bottom: 2em
+}
+
+.skills h1 {
+  text-align: center;
+  font-style: oblique;
+}
+
+div.education {
+  margin-left: 2em;
+  margin-right: 2em;
+  padding-bottom: 2em;
+}
+
+.education h1 {
+  text-align: center;
+  font-style: oblique;
+}
+
+div.work_experiences {
+  margin-left: 2em;
+  margin-right: 2em;
+  padding-bottom: 2em;
+}
+
+.work_experiences h1 {
+  text-align: center;
+  font-style: oblique;
+}
+
+div.volunteer_experiences {
+  margin-left: 2em;
+  margin-right: 2em;
+  padding-bottom: 2em
+}
+
+.volunteer_experiences h1 {
+  text-align: center;
+  font-style: oblique;
+}
+
+.resume-section {
+  display: inline-block;
+  background: linear-gradient(white, gray);
+  border: black;
+  border-radius: 8px;
+  box-shadow: 10px 17px 16px 3px rgba(0,0,0,0.65);
+  margin-top: 5em;
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-bottom: 65px;
+}
+
+.project {
+  display: inline-block;
+  background: linear-gradient(white, gray);
+  border: black;
+  border-radius: 8px;
+  box-shadow: 10px 17px 16px 3px rgba(0,0,0,0.65);
+  margin-top: 5em;
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-bottom: 65px;
+}
+
+.text-center {
+  position: center;
+  font-family: 'Mr Dafoe', cursive;
+  font-size: 65px;
+  color: #F975F7 ;
+  margin-top: 2em;
+  -webkit-text-stroke: 1px #f008b7;
+  -webkit-filter: drop-shadow(2px 2px 20px #f008b7);
+}
+
+.aboutbio h3 {
+  position: center;
+  font-family: 'Mr Dafoe', cursive;
+  font-size: 45px;
+  color: #F975F7 ;
+  margin-left: 50px;
+  -webkit-text-stroke: 1px #f008b7;
+  -webkit-filter: drop-shadow(2px 2px 20px #f008b7);
+}
+
+.aboutbio {
+  font-family: 'Candal', sans-serif;
+  font-style: italic;
+  color: white;
+  margin-bottom: 50px;
+}
+
+
+h3 a {
+  position: relative;
+}
+
+h3 a {
+  position: relative;
+  font-family: 'Candal', sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  -webkit-text-stroke: 0.1px gray;
+  color: #fff;
+  text-shadow: -10px 5px 0px gray;
+  margin: 0;
+}
+
+h3 a {
+  -webkit-text-stroke: 1px gray;
+}
